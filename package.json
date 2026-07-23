@@ -2,9 +2,11 @@
   "name": "website-portfolio",
   "version": "1.0.0",
   "description": "My personal page to showcase the technical projects I have done!",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "live-server",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,12 +16,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/johann-barcinas26/johann-barcinas26.github.io/issues"
   },
   "homepage": "https://github.com/johann-barcinas26/johann-barcinas26.github.io#readme",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
   "devDependencies": {
-    "live-server": "^1.2.2"
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.5"
   }
 }

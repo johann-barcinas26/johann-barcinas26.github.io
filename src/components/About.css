@@ -1,0 +1,30 @@
+.about-bio {
+  color: var(--color-text-muted);
+  max-width: 560px;
+  margin-bottom: 24px;
+}
+
+.about-skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-layout {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 260px;
+}
+
+.about-image {
+  width: 360px;
+  height: 360px;
+  border-radius: 10%;
+  object-fit: cover;
+  order: -1;
+}
