@@ -1,0 +1,13 @@
+import './Blobs.css'
+
+function Blobs() {
+  return (
+    <div className="blobs" aria-hidden="true">
+      <div className="blob blob-a" />
+      <div className="blob blob-b" />
+      <div className="blob blob-c" />
+    </div>
+  )
+}
+
+export default Blobs

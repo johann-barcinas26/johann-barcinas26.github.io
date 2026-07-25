@@ -26,25 +26,9 @@ html {
 
 body {
   margin: 0;
-  background: radial-gradient(circle at 20% 20%, var(--gradient-light), var(--gradient-tint) 60%, var(--color-bg) 100%);
-  background-size: 200% 200%;
+  background: var(--color-bg);
   color: var(--color-text);
   line-height: 1.6;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  body {
-    animation: gradient-drift 18s ease-in-out infinite alternate;
-  }
-}
-
-@keyframes gradient-drift {
-  from {
-    background-position: 0% 0%;
-  }
-  to {
-    background-position: 100% 100%;
-  }
 }
 
 h1, h2, h3 {

@@ -1,0 +1,25 @@
+.typing-tagline {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-accent);
+  margin: 0 0 16px;
+  min-height: 24px;
+}
+
+.typing-cursor {
+  display: inline-block;
+  margin-left: 2px;
+  animation: typing-cursor-blink 1s step-end infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .typing-cursor {
+    animation: none;
+  }
+}
+
+@keyframes typing-cursor-blink {
+  50% {
+    opacity: 0;
+  }
+}

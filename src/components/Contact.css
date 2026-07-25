@@ -19,3 +19,8 @@
 .contact-socials a:hover {
   color: var(--color-accent);
 }
+
+.contact-socials svg {
+width: 24px;
+height: 24px;
+}
