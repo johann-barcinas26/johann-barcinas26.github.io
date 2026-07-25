@@ -39,7 +39,7 @@ function About() {
         </div> {/* End of about-text */}
         
         {/*Image element*/}
-        <img className ="about-image" src="/public/profile.png" alt="Johann Barcinas" />
+        <img className ="about-image" src="/profile.png" alt="Johann Barcinas" />
 
       </div>
     </section>
